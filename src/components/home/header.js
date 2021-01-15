@@ -12,7 +12,8 @@ const Header = props => {
                             return (
                                 <li key={i} data-target="#carouselExampleIndicators"
                                     data-slide-to={i}
-                                    className={(i === 0 ? "acive" : "")}></li>
+                                    className={(i === 0 ? "active" : "")}>
+                                </li>
                             )
                         })
                     }

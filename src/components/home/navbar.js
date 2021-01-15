@@ -23,7 +23,7 @@ const Navbar = props => {
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Portfolio
-                    </a>
+                                </a>
                                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                                     <a className="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
                                     <a className="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
@@ -35,7 +35,7 @@ const Navbar = props => {
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Blog
-                    </a>
+                                </a>
                                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                                     <a className="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
                                     <a className="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
@@ -45,7 +45,7 @@ const Navbar = props => {
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Other Pages
-                    </a>
+                                </a>
                                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                                     <a className="dropdown-item" href="full-width.html">Full Width Page</a>
                                     <a className="dropdown-item" href="sidebar.html">Sidebar Page</a>
