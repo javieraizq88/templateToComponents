@@ -59,6 +59,7 @@ const Home = props => {
                 }
             ]
         },
+
         portfolioInfo: {
             title: 'Portfolio Heading', // titulo del porfolio//
             portafInfo: [
@@ -93,8 +94,26 @@ const Home = props => {
             descrip2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.",
             mImagen: "https://i.picsum.photos/id/319/700/450.jpg?blur=2"
         }
-
-    })
+    });
+    
+//     useEffect(() => {
+//         getTodos('https://jsonplaceholder.typicode.com/todos');
+//     }, []);
+// ​
+//     const getTodos = url => {
+//         fetch(url)
+//             .then(response => {
+//                 console.log(response.status);
+//                 return response.json();
+//             })
+//             .then(data => {
+//                 console.log(data);
+//                 let datos = Object.assign(state, {todos: data});
+//                 setState(datos);
+//             })
+//             .catch(err => console.log(err));
+//     }
+    
         //es necesario linkear en el return con la info de arriba//
     return (
         <>
@@ -104,7 +123,6 @@ const Home = props => {
                 <Welcome info={state.welcomeInfo} />
                 <Porfolio portfolio={state.portfolioInfo} />
                 <Modernbusiness mbusiness={state.modernBusinessInfo}/>
-
                 <hr />
                 <Action />
             </div>
